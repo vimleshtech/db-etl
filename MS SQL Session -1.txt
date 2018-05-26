@@ -1,0 +1,110 @@
+
+seema_06@hotmail.com
+
+MS SQL Server 2016/2014/2012 /2008R2
+
+Types of MS SQL Server:
+	->Database Engine  (MS SQL Server)
+		
+	MS BI
+	---------------------------------------
+	->SSIS (SQL Server Integration Services)/ETL(Extract Transformation Load)
+	->SSRS (SQL Server Reporting Services)
+	->SSAS (SQL Server Analysis Services)
+
+MS SQL Server Environment
+=============================
+Client and Development Tools:
+	->SSMS (sql server management studio)
+	->Data Tools (SSIS,SSRS,SSAS)
+		:data tools was known as BIDS(business intell. development studio)
+
+
+Server:
+	->SQL Express (free)
+	->SQL Server Standard Edition 
+	->SQL Server Enterprise Edition 
+	->SSIS
+	->SSRS
+	->SSAS
+
+	
+
+
+Server Name:
+===============
+	DH7U0SGH527SKS1\DBS91
+	DH7U0SGH527SKS1(server/computer name)
+	DBS91 (instance)
+
+
+Authentication Type
+====================
+	->SQL Server 
+		UID:
+		PWD:
+	->Windows:
+		sql server will pick login id and pwd by default 
+
+Database: 
+====================
+is known as schema(group of objects) and collection of data in tablular format
+
+
+System Default Database:
+=========================
+	master	: store meta data (user defined db)
+	msdb    : contains info about server 
+	model	: this contains ER diagram
+	tempdb	: this contains/holds temp tables and data 
+	
+
+User Defined Database:
+=====================
+	application database:
+		-super_store
+		-hrms
+		etc.
+
+SQL Command Type
+==================
+-DDL(data definition language)
+	-create		: create new structure/objects
+	-alter		: modify structure/statement in existing objects
+	-drop		: remove object, column/field   
+	-truncate	: remove all rows/data from tabe, however structure will remail same
+
+-DML(data manipulation language)
+	-insert		: add new data row in table
+	-update		: modify values in exising row
+	-delete		: delete row 
+-DCL(data/deciion control language)
+	-create user
+	-grant access
+	-revoke access
+-TCL(transaction control language)
+	-begin transaction
+	-commit
+	-rollback
+-DQL(data query language)	
+	-select 
+
+
+Tables : is combination of rows and columns where data can be stored in tabular format
+======================
+syntax to create table:
+	create table <tablename> 
+	(
+	<col1>  int,
+	<col2>  varchar(100),
+	<col3>  datetime
+	)
+
+	
+
+
+
+
+				
+
+
